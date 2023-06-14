@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+  </head>
+  <body>
+    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+  </body>
+  <!-- <script>
+        var AWS = require('aws-sdk');
+        var config = {
+            region: 'us-west-2'
+        };
+        AWS.config.update(config);
+
+        var s3 = new AWS.S3({
+            params: {Bucket: 'YOUR-BUCKET'}
+        });
+
+        var jsonObj = require("./redirect.json");
+
+        for(var myRedirect in jsonObj) {
+            s3.putObject ({
+                Key: myRedirect,
+                WebsiteRedirectLocation: 'http://'+jsonObj[myRedirect]
+            }, handler);
+        }
+
+        function handler(err,data) {
+            if(err) {
+                console.log(err)
+            } else {
+                console.log(data)
+            }
+        }
+    </script> -->
+</html>
